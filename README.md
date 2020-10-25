@@ -133,8 +133,8 @@ To generate different random instances of a network, please see the code for the
 (6)  Drug reporpositioning for COVID-19
      Call the Code:
      python ppinac_Drugs.py
-            -------------
      You'll need 4 files:
+     
      (6.1) The outputs file "ppinac_alignment.txt"
      (6.2) The  list  of  genes  associated  with  COVID-19  is  available  at : "http://ctdbase.org/detail.go?type=disease&acc=MESH%3aC000657245&view=gene" 
      (6.3) The links between target to drug are initially computed using the public databases DrugBank.  
