@@ -122,7 +122,7 @@ it is a non-negative integer number .It defines the number of iterations for com
 ------------------------------
 
 A simple example:
-./PPINA yeast.tab human.tab
+./PPINAC yeast.tab human.tab
 
 To generate different random instances of a network, please see the code for the required parameters.
 
