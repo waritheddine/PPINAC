@@ -133,7 +133,7 @@ To generate different random instances of a network, please see the code for the
 (6)  Drug reporpositioning for COVID-19
      Call the Code:
      python ppinac_Drugs.py
-     You'll need 4 files:
+     You'll need 7 files:
      
      (6.1) The outputs file "ppinac_alignment.txt"
      (6.2) The  list  of  genes  associated  with  COVID-19  is  available  at : "http://ctdbase.org/detail.go?type=disease&acc=MESH%3aC000657245&view=gene" 
@@ -141,7 +141,7 @@ To generate different random instances of a network, please see the code for the
      (6.4) The list of drugs or chemicals which are associated with COVID-19 disease.  The drug has either a curated association to the disease or an inferred association via a curated gene interaction that is available at : "http://ctdbase.org/detail.go?type=disease&acc=MESH%3aC000657245&view=chem"
      (6.5) Protein Protein interaction for the Homo Sapiens
      (6.6) List of Gene-Protein association for the Homo Sapiens
-     (6.7) Gene Ontology Annotation for the Homo Sapiens and the Mouse
+     (6.7) Gene Ontology Annotations for the Homo Sapiens and the Mouse
 (7)  The output
      The program outputs one file "Drugs_from_ppi_alignment_human_mouse_funct_v1"(contains the list of drug association between Mouse and Homo-Sapiens deduced from the alignment between them).
 
