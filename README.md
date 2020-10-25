@@ -1,5 +1,5 @@
 # PPINAC
-This README describes the usage of the command line interface of PPINAC. It is worth mentioning that our approach is based on NETAL approach.
+This README describes the usage of the command line interface of PPINAC (Protein-Protein Interaction Networks for COVID19).
 
 The executable PPINAC is compiled for Linux x86_64 platform.
 
@@ -129,7 +129,7 @@ To generate different random instances of a network, please see the code for the
 (5)  The output
 
       The program outputs one file "ppinac_alignment.txt"(contains global alignment of two networks).
-===============================================================================
+
 (6)  Drug reporpositioning for COVID-19
      Call the Code:
      python ppinac_Drugs.py
