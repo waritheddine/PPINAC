@@ -6,7 +6,7 @@ The executable PPINAC is compiled for Linux x86_64 platform.
 The program PPINAC finds a global alignment of pairwise input
 networks. Given two networks with N1, N2 nodes each,
 it returns a matching between the input networks, each match corresponding to
-best-matching nodes from the multiple networks.
+best-matching nodes from the multiple networks. Adding to that, the PPI networks alignment for the Homo sapiens and mouse can be used to discover some potential drug repurposing for the COVID-19. Moreover, we provide the virus-host protein-protein interaction networks (i.e. SARS-CoV-2 versus SARS-CoV-1), in order to discover more conserved edges or common viral infections by applying the alignment between the SARS-CoV-2 versus SARS-CoV-1.
 
 To understand how to use the algorithm, let's start with an example of
 pairwise alignment of two input networks. The multiple case is similar.
