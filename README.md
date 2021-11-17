@@ -6,7 +6,7 @@ The executable PPINAC is compiled for Linux x86_64 platform.
 The program PPINAC finds a global alignment of pairwise input
 networks. Given two networks with N1, N2 nodes each,
 it returns a matching between the input networks, each match corresponding to
-best-matching nodes from the multiple networks. Adding to that, the PPI networks alignment for the Homo sapiens and mouse can be used to discover some potential drug repurposing for the COVID-19. Moreover, we provide the virus-host protein-protein interaction networks (i.e. SARS-CoV-2 versus SARS-CoV-1), in order to discover more conserved edges or common viral infections by applying the alignment between the SARS-CoV-2 versus SARS-CoV-1.
+best-matching nodes from the multiple networks. Adding to that, we provide the virus-host protein-protein interaction networks (i.e. SARS-CoV-2 versus SARS-CoV-1), in order to discover more conserved edges or common viral infections by applying the alignment between the SARS-CoV-2 versus SARS-CoV-1.
 
 To understand how to use the algorithm, let's start with an example of
 pairwise alignment of two input networks. The multiple case is similar.
@@ -129,19 +129,4 @@ To generate different random instances of a network, please see the code for the
 (5)  The output
 
       The program outputs one file "ppinac_alignment.txt"(contains global alignment of two networks).
-
-(6)  Drug reporpositioning for COVID-19
-     Call the Code:
-     python ppinac_Drugs.py
-     You'll need 7 files:
-     
-     (6.1) The outputs file "ppinac_alignment.txt"
-     (6.2) The  list  of  genes  associated  with  COVID-19  is  available  at : "http://ctdbase.org/detail.go?type=disease&acc=MESH%3aC000657245&view=gene" 
-     (6.3) The links between target to drug are initially computed using the public databases DrugBank.  
-     (6.4) The list of drugs or chemicals which are associated with COVID-19 disease.  The drug has either a curated association to the disease or an inferred association via a curated gene interaction that is available at : "http://ctdbase.org/detail.go?type=disease&acc=MESH%3aC000657245&view=chem"
-     (6.5) Protein Protein interaction for the Homo Sapiens
-     (6.6) List of Gene-Protein association for the Homo Sapiens
-     (6.7) Gene Ontology Annotations for the Homo Sapiens and the Mouse
-(7)  The output
-     The program outputs one file "Drugs_from_ppi_alignment_human_mouse_funct_v1"(contains the list of drug association between Mouse and Homo-Sapiens deduced from the alignment between them).
 
