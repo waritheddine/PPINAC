@@ -131,7 +131,8 @@ An example of the alignment between Human-SARS-COV1 and Human-SARS-COV2 networks
 ./PPINAC data/ppi_Human_coronavirus/human_sars1.tab data/ppi_Human_coronavirus/human_sars2.tab -o 2 -i 2
 
 Note:
- The uniprot gene ontology annotation file is under the compressed folder 
+ The uniprot gene ontology annotation file (which contain the annotations of the Homo Sapiens, Mouse and the coronavirus) is under the compressed folder "uniprot_goa_Human_Mouse_SARS.tar.xz". Therefore, we urge the users to decompress the files and place it under the folder "data/goa".
+ The blast bit score between the compared species can be downloader from this link "http://doi.org/10.5281/zenodo.5708117", and putted under each compared networks folder.
 
 To generate different random instances of a network, please see the code for the required parameters.
 
