@@ -121,8 +121,14 @@ it is a non-negative integer number .It defines the number of iterations for com
 
 ------------------------------
 
-A simple example:
-./PPINAC yeast.tab human.tab
+An example of the alignment between Homo Sapiens and Mouse networks (c.f. the networks are in the "data/ppi_Human_mouse" under the compressed folder PPINAC.tar.jz) :
+./PPINAC data/ppi_Human_mouse/10090_uniprot4.pin data/ppi_Human_mouse/9606_uniprot4.pin -o 3 -i 2
+
+An example of the alignment between SARS-COV2 and SARS-COV1 networks (c.f. the networks are in the "data/ppi_Human_coronavirus" under the compressed folder PPINAC.tar.jz) :
+./PPINAC data/ppi_Human_coronavirus/sars2.tab data/ppi_Human_coronavirus/sars1.tab -o 2 -i 2
+
+An example of the alignment between Human-SARS-COV1 and Human-SARS-COV2 networks (c.f. the networks are in the "data/ppi_Human_coronavirus" under the compressed folder PPINAC.tar.jz) :
+./PPINAC data/ppi_Human_coronavirus/human_sars1.tab data/ppi_Human_coronavirus/human_sars2.tab -o 2 -i 2
 
 To generate different random instances of a network, please see the code for the required parameters.
 
